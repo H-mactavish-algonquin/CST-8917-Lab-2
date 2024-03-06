@@ -1,0 +1,20 @@
+{
+    "bindings": [
+      {
+        "authLevel": "function",
+        "type": "httpTrigger",
+        "direction": "in",
+        "name": "req",
+        "methods": [ "post" ],
+        "route": "processimage"
+      },
+      {
+        "type": "http",
+        "direction": "out",
+        "name": "res"
+      }
+    ],
+    "scriptFile": "__init__.py",
+    "entryPoint": "main"
+  }
+  
